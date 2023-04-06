@@ -1,0 +1,22 @@
+.page-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #d4d4d4;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.products {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 125px;
+    margin-top: 60px;
+}
